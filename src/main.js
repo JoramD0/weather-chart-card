@@ -327,6 +327,7 @@ calculateBeaufortScale(windSpeed) {
     'km/h': 1,
     'm/s': 3.6,
     'mph': 1.60934,
+    'kts': 0.53996,
   };
 
   if (!this.weather || !this.weather.attributes.wind_speed_unit) {
